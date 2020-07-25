@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <!-- ^ the viewport meta tag is to make your webpage responsive according to screen size -->
+    <title>Suvas</title> 
+    <!-- ^ your webpage's title -->
+    <link href="style.css" rel="stylesheet" 
+    type="text/css" />
+    <!-- ^ where we link our CSS file to our webpage -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<!-- ^ where we link our font awesome file to our webpage (this allows us to import social icons!) -->
+  </head>
+  <body class="dark">
+<!-- ^ this is our document's body, we can write all our HTML markup here -->
+
+  <img 
+  src="IMG_5043.jpg" class = "border"/>
+  <h1 class = "border">Suvas Kota</h1>
+  <h2 class = "border">A problem-solver who is passionate about learning</h2>
+
+
+
+
+
+<button class="tablink" onclick="openCity('Personal Projects', this, 'red')" id="defaultOpen">Personal Projects</button>
+<button class="tablink" onclick="openCity('About me', this, 'green')">About me</button>
+<button class="tablink" onclick="openCity('Food for Thought', this, 'blue')">Food for Thought</button>
+<button class="tablink" onclick="openCity('Contact me', this, 'orange')">Contact me</button>
+
+<div id="Personal Projects" class="tabcontent">
+  <h1>Personal Projects</h1>
+  <p>Below are some descriptions of some cool personal projects that I did in my free time!</p>
+  <p class = "head"> <br/><br/> Personal Website</p>
+  <div class = "paragraph">
+    
+    <p class = "project">
+      <img src="https://i.ytimg.com/vi/1Prw90PRiJE/maxresdefault.jpg" class = "sidepic3" />
+      The first personal project is this website! I did not use any templates and built it from scratch so that I could gain a solid understanding of basic website development. Most of the issues I faced during this project was with design and figuring out ways to implement in my head. Through this project, I learned a decent amount of HTML, CSS and JavaScript!
+    
+    </p>
+  </div>
+  
+</div>
+
+<div id="Food for Thought" class="tabcontent">
+  <h1>Just some random thoughts</h1>
+  
+  <p class = "head"> <br/><br/>Power in Being Concise </p>
+  <p>The way our education system is currently structured, we have been groomed to beat around the bush and fluff in our writing. Some examples including reaching a word or page count for a paper. Now I agree that in the beginning, including these benchmarks is necessary to develop depth in students' writing. However, sometimes in higher levels of academia, even if the quality of a paper is really good, failing to meet the page limit can effect your grade. As a result, students are motivated to include lots of fluff in their writing, even when there is no need to, in order to meet these requirements. While adding fluff may work for grades etc, this habit can be hindering and inefficient in the real world. I personally realized this when I was writing essays for college. <br/><br/>My original drafts of college essays would always be well over the word count, but interestingly, I could slash up to 200 words and still retain all the points I wanted to get across with the intended effect and power. There is power in being concise. The readers or audience will not get bored, we save time for all parties involved, and our intended points will always be more powerful and direct when there is less fluff surrounding them. The same can be applied to meetings as well. Especially in our increasingly busy lives, people would really appreciate meetings that are short, straight to the point and skip all the formalities. The average attention span of a person in a meeting is 20 minutes so if you are unnecessarily stretching a meeting longer than it has to be, then you are trading off productivity and time that could have been used for something more beneficial. Congress is a perfect example of how people use fluff to prevent things from being done. So bottom line, if you want to get stuff done and have a powerful effect, be concise and to the point!</p>
+</div>
+
+<div id="About me" class="tabcontent">
+   <h1>About me</h1>
+    <div id = "Para1" class = "paragraph">
+   
+    <p>I am currently a rising sophomore at the University of Pennsylvania majoring in Computer Science and getting a minor in Engineering Entreprenuership. I am very passionate about the intersection of technology and business and look to create value in several fields such as finance, data science, consulting, entreprenuership, and software development. In short, I love to innovate.
+      
+    <br /> <br />In my free time, I love to play chess, video games, basketball and read! Several other of my hobbies include learning how to play the piano, trying out new food, and watching lots of movies.</p>
+    <img src="https://s.yimg.com/uu/api/res/1.2/oFE6MENxI8o0BE6RYKL15Q--~B/aD0yNjEwO3c9MzQ4ODtzbT0xO2FwcGlkPXl0YWNoeW9u/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/b427d19dd6238628dc7fa8acc2c212d3" class = "sidepic1"/>
+
+    <img src="data:image/jpeg;base64,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" class = "sidepic2"/>
+    
+  </div>
+
+  
+  
+  
+  
+</div>
+  
+</div>
+
+<div id="Contact me" class="tabcontent">
+  <h1>Contact me</h1>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+  <a href="https://www.linkedin.com/in/suvas-kota-1068a8158" class="fa fa-linkedin" target="_blank"></a>
+  <a href="https://github.com/suvaskota" class="fa fa-github" target="_blank"></a>
+  <a href="mailto:skota@seas.upenn.edu" class="fa fa-envelope"></a>
+</div>
+
+
+
+    <script src="script.js"></script>
+  <!-- ^ where we link our JS file to our webpage (we don't need to worry about this for now!) -->
+  </body>
+</html>
